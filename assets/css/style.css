@@ -1127,7 +1127,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #3f5075;
+  color: #628307;
 }
 
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
@@ -1158,7 +1158,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #4d6119;
+  color:    #628307;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1954,7 +1954,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ff5821;
+  background:#223a6c;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1962,7 +1962,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #ed3b00;
+  background: #182b55;
 }
 
 #footer .credits {
@@ -1971,10 +1971,19 @@ section {
   color: #313030;
 }
 
+#footer .credits a{
+  color: #ec1d26 !important;
+}
+#footer .credits a:hover{
+  color: #bd131b !important;
+} 
+
+
+
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ff5821;
+  background: #223a6c;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1987,7 +1996,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #ff7e54;
+  background: #395186;
   color: #fff;
   text-decoration: none;
 }
