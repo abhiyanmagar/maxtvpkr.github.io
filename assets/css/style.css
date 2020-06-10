@@ -1683,8 +1683,116 @@ tbody tr:hover {
 
 
 /*--------------------------------------------------------------
-# Offices
+#Our Offices
 ---------------------------------------------------------------*/
+.ouroffice-head{
+  padding:0 10px 20px 10px;
+}
+
+.branchTable{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 0 0 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.branchTable .pricing-content{
+  background-color: #fff;
+  padding: 15px 0 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+.branchTable .branchTable-header{
+  padding: 20px 10px;
+  margin: 0 0 5px;
+}
+.branchTable .title{
+  color: #333;
+  font-size: 25px;
+  font-weight: 300;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.branchTable .content-list{
+  padding: 0;
+  margin: 0 0 27px;
+  list-style: none;
+  display: inline-block;
+}
+.branchTable .content-list li{
+  color: #333;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0 0 27px;
+  position: relative;
+}
+.branchTable .content-list li:last-child{ margin-bottom: 0; }
+
+
+.branchTable .price-value{ margin: 0 0 20px; }
+.branchTable .price-value .time{
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 40px;
+  margin: 0 0 5px;
+  display: block;
+}
+.branchTable .price-value .duration{
+  font-size: 16px;
+  display: block;
+}
+.branchTable .branchTable-callnow a{
+  color: #fff;
+  background-color: #223a6c;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 5px 25px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.branchTable .BranchTable-callnow a:hover{ text-shadow: 0 0 8px rgba(0, 0, 0, 0.8); }
+.branchTable .branchTable-callnow a:before,
+.branchTable .branchTable-callnow a:after{
+  content: '';
+  background-color: rgba(0, 0, 0, 0.15);
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
+  transition: all 0.3s ease;
+}
+.branchTable .branchTable-callnow a:after{
+  left: auto;
+  right: 0;
+}
+.branchTable .branchTable-callnow a:hover:before{
+  opacity: 1;
+  top: 50%;
+}
+.branchTable .branchTable-callnow a:hover:after{
+  opacity: 1;
+  top: -50%;
+}
+
+.branchTable.magenta:after,
+.branchTable.magenta .branchTable-callnow a{
+  background-color: #C70134;
+}
+@media only screen and (max-width: 990px){
+  .branchTable{ margin-bottom: 50px; }
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Footer
