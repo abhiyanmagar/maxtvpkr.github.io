@@ -64,3 +64,166 @@
 
       </div>
     </section><!-- End Values Section -->
+
+
+ <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 data-aos="fade-up">Pricing</h2>
+          <p data-aos="fade-up"></p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up">
+            <div class="box">
+              <h3>Silver</h3>
+              <h4><sup>Rs</sup>350<span> / month</span></h4>
+              <ul>
+                <li>Standard Definition</li>
+                <li>Residential Package</li>
+                <li>150 SD Channels</li>
+                <li class="na">100 HD Channels</li>
+                <li>Total 150 Channels</li>
+
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box">
+              <h3>Platinum</h3>
+              <h4><sup>Rs</sup>500<span> / month</span></h4>
+              <ul>
+                <li>High Definition</li>
+                <li>Residential Package</li>
+                <li>150 SD Channels</li>
+                <li>100 HD Channels</li>
+                <li>Total 250 Channels</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="100">
+            <div class="box featured">
+              <h3>1 YEAR SILVER</h3>
+              <h4><sup>Rs</sup>4200<span> / year</span></h4>
+              <ul>
+                <li>Total 425 Days</li>
+                <li>Residential Package</li>
+                <li>150 SD Channels</li>
+                <li>Total 150 Channels</li>
+                
+                <li class="na">100 HD Channels</li>
+              </ul>
+              <div class="btn-wrap">
+                <button type="button" class="btn-buy" data-toggle="modal" data-target="#modal-pricing">Buy Now</button>
+                </div>
+            </div>
+          </div>
+
+          
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <span class="advanced">Ultimate</span>
+              <h3>1 Year Platinum</h3>
+              <h4><sup>Rs</sup>6000<span> / year</span></h4>
+              <ul>
+                <li>Total 456 Days</li>
+                <li>Residential Package</li>
+                <li>150 SD Channels</li>
+                <li>100 HD Channles</li>
+                <li>Total 250 Channels</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-3 col-md-6" data-aos="fade-up">
+            <div class="box">
+              <h3>Silver</h3>
+              <h4><sup>Rs</sup>150<span> / month</span></h4>
+              <ul>
+                <li>Standard Definition</li>
+                <li>CommercialPackage</li>
+                <li>150 SD Channels</li>
+                <li class="na">100 HD Channels</li>
+                <li>Must have more than 4 boxes</li>
+
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-3 col-md-6" data-aos="fade-up">
+            <div class="box">
+              <h3>Platinum</h3>
+              <h4><sup>Rs</sup>266<span> / month</span></h4>
+              <ul>
+                <li>High Definition</li>
+                <li>Commercial Package</li>
+                <li>150 SD Channels</li>
+                <li>100 HD Channels</li>
+                <li>Must have more that 4 boxes</li>
+
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-3 col-md-6" data-aos="fade-up">
+            <div class="box">
+              <h3>New Subscriber</h3>
+              <h4><sup>Rs</sup>4200<span> / year</span></h4>
+              <ul>
+                <li>Free Registration</li>
+                <li>Total 365 Days</li>
+                <li>Standard Definition</li>
+                <li>Residential Package</li>
+                <li class="na">100 HD Channels</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <span class="advanced">Best</span>
+              <h3>New Subsription</h3>
+              <h4><sup>Rs</sup>6000<span> / year</span></h4>
+              <ul>
+                <li>Free Registration</li>
+                <li>Total 365 Days</li>
+                <li>Residential Package</li>
+                <li>150 SD Channels</li>
+                <li>100 HD Channles</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
