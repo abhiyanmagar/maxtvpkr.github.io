@@ -85,16 +85,17 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 4px;
 }
 
-#topbar .cta a {
+#topbar .cta button {
   color: #fff;
   background: #ec1d26;
   padding: 8px 20px;
   display: inline-block;
   transition: 0.3s;
+  border: none;
 }
 
 
-#topbar .cta a:hover {
+#topbar .cta button:hover {
   background: #ffffff;
   color:#223a6c;
 }
@@ -1800,7 +1801,111 @@ tbody tr:hover {
   .branchTable{ margin-bottom: 50px; }
 }
 
-/*------------------Pricing Modal--------*/
+/*------------------Booking Modal--------*/
+.modal {
+  z-index: 10000;
+}
+
+.modal-dialog {
+  max-width: 600px;
+  margin-top: 4rem;
+}
+
+.modal-close {
+  float: right;
+  background-color: #fff;
+  border: 1px solid #223a6c;
+  border-radius: 50%;
+  padding: 0 7px;
+}
+
+.modal-close:active {
+  border-color: #4d4d4d;
+}
+
+button:focus {
+  outline: none;
+}
+
+.modal-header {
+  display: block;
+}
+
+.modal-body .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.modal-body .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #223a6c;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.modal-body .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.modal-body .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.modal-body .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.modal-body .php-email-form input, .modal-body .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.modal-body .php-email-form input::focus, .modal-body .php-email-form textarea::focus {
+  background-color: #223a6c;
+}
+
+.modal-body .php-email-form input {
+  padding: 20px 15px;
+}
+
+.modal-body .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+.modal-body .php-email-form button[type="submit"] {
+  background: #223a6c;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.modal-body .php-email-form button[type="submit"]:hover {
+  background: #394a6e;
+}
 
 
 

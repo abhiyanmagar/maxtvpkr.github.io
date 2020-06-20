@@ -92,7 +92,7 @@ jQuery(document).ready(function($) {
     if (ferror) return false;
     else var str = $(this).serialize();
 
-    var this_form = $(this);
+    var this_form = $(this);  
     var action = $(this).attr('action');
 
     if( ! action ) {
