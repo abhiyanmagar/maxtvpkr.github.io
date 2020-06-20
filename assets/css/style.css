@@ -398,6 +398,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
+.hero-btn button{
+  border: none;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -640,7 +644,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#223a6c 50%, rgba(164, 169, 245, 0.4) 52%);
+  background: radial-gradient(#223a6c 50%, #748bbb7c 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -681,10 +685,10 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid#223a6c;
+  border: 5px solid #eb1e25;
   top: -15%;
   left: -15%;
-  background: #223a6c;
+  background: rgba(198, 16, 0, 0);
 }
 
 .about .play-btn:hover::after {
@@ -731,6 +735,7 @@ section {
     opacity: 0;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Clients
